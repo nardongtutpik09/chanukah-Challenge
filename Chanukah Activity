@@ -1,11 +1,11 @@
-def NoCandle(S):
+def NoC(S):
     Candle = S[0]
     Day = S[1]
     
     needCandle = Day + ((Day * (Day + 1))/2)
     print('{0} {1}'.format(Candle, int(needCandle)))
 
-na = int(input())
-for it in range(na):
-    S = [int(je) for je in input().split()]
-    NoCandle(S)
+A = int(input())
+for B in range(A):
+    S = [int(C) for C in input().split()]
+    NoC(S)
